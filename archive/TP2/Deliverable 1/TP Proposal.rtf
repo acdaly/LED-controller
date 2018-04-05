@@ -1,0 +1,17 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1348\cocoasubrtf170
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+
+\f0\fs24 \cf0 112 Term Project - Ariana Daly + acdaly + B\
+\
+I plan on programming an RGBW LED strip with an Arduino to react with audio files. Ideally the program would work for any music (potentially only .wav files) dropped in a specified folder. When the program is run from the computer, the user would be able to select any file from the folder to play.\
+\
+The project would be placed in the context of my art installation, a small space surrounded by mirrors. The strip would likely be hung from the ceiling of the space.\
+\
+The RGBW LED strip would hook up to the Arduino with a breadboard, wires, and an external power source (like an outlet). I would make a python file and communicate with the Arduino via serial. \
+\
+This project requires the pyserial (to communicate with the Arduino in Python) and pyaudio (to analyze the music files) modules.\
+\
+ I plan on typing a fairly simple serial code in C++ that would take the strings \'931\'94 and \'930\'94 to turn the lights on and off. It may need to take a couple other strings later on as well, for brightness and color. Pyserial will then be used to send this data to the Arduino. The pyaudio module will be used to create Python code that will analyze the music files and send the string data to the Arduino. Pyaudio can analyze the fluctuations of the RMS of fragments of the audio file and increase or decrease the brightness of the LED as the RMS increases or decreases. }
