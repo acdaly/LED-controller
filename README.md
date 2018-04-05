@@ -1,5 +1,5 @@
 # [15-112 Fundamentals of Programming](http://www.kosbie.net/cmu/spring-16/15-112/)
-A technical introduction to the fundamentals of programming with an emphasis on producing clear, robust, and reasonably efficient code using top-down design, informal analysis, and effective testing and debugging. Starting from first principles, we will cover a large subset of the Python programming language, including its standard libraries and programming paradigms. We will also target numerous deployment scenarios, including standalone programs, shell scripts, and web-based applications.
+A technical course and introduction to the fundamentals of programming with an emphasis on producing clear, robust, and reasonably efficient code using top-down design, informal analysis, and effective testing and debugging. Starting from first principles, it covers a large subset of the Python programming language, including its standard libraries and programming paradigms. It will also target numerous deployment scenarios, including standalone programs, shell scripts, and web-based applications.
 
 ## LED Controller - Final Project
 
